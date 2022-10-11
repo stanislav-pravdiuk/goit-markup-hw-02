@@ -18,7 +18,7 @@
 
 body {
     background-color: ##F5F5F5;
-    color: var(--primary-text-color)    
+    color: var(--primary-text-color)
 }
 
 /* head */
@@ -26,6 +26,7 @@ body {
 .logo a {
     color: var(--primary-logo-color)
 }
+
 .accent a {
     color: var(--secondary-logo-color)
 }
@@ -34,41 +35,25 @@ body {
     list-style: none;
 }
 
-.site-nav a:hover, .site-nav a:focus {
-    color:var(--secondary-logo-color);
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--secondary-logo-color);
 }
 
-.contact-nav a:hover, .contact-nav a:focus {
-    color:var(--secondary-logo-color);
+.site-nav .current {
+    color: var(--secondary-logo-color);
+
 }
+
+.contact-nav a:hover,
+.contact-nav a:focus {
+    color: var(--secondary-logo-color);
+}
+
 .site-nav a {
     color: var(--primary-text-color);
 }
+
 .contact-nav a {
-   color: var(--primary-text-color);
-}
-
-/* hero */
-
-.hero-title{
-    color: var(--white-text-color);
-    background-color:rgba(47, 48, 58, 1) ;
-}
-
-.section-title {
     color: var(--primary-text-color);
 }
-
-/* features */
-.feature .text {
-color: var(--secondary-text-color)
-}
-
-/* team */
-.team .text {
-color: var(--secondary-text-color)
-}
- .button {
-    color: var(--white-text-color);
-    background-color: var(--secondary-logo-color);
- }

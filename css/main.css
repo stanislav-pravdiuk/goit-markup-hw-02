@@ -1,0 +1,26 @@
+/* hero */
+
+.hero-title{
+    color: var(--white-text-color);
+    background-color:rgba(47, 48, 58, 1) ;
+}
+ .button {
+     color: var(--white-text-color);
+     background-color: var(--secondary-logo-color);
+ }
+
+/* main */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* features */
+.feature .text {
+color: var(--secondary-text-color)
+}
+
+/* team */
+.team .text {
+color: var(--secondary-text-color)
+}
