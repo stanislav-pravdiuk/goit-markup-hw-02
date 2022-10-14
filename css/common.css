@@ -19,12 +19,15 @@
 body {
     background-color: ##F5F5F5;
     color: var(--primary-text-color)
+
+    font-family: roboto, sans-serif;
 }
 
 /* head */
 
 .logo a {
     color: var(--primary-logo-color)
+    font-family: raleway;
 }
 
 .accent a {
