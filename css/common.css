@@ -21,17 +21,24 @@ body {
     color: var(--primary-text-color)
 
     font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* head */
 
-.logo a {
+.logo {
     color: var(--primary-logo-color)
+
     font-family: raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.8;
+    
 }
 
-.accent a {
+span {
     color: var(--secondary-logo-color)
+    
 }
 
 .list {
