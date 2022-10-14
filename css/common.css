@@ -32,7 +32,7 @@ body {
     font-family: raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.8;
+    line-height: 1.1;
     
 }
 
@@ -44,6 +44,7 @@ span {
 .list {
     list-style: none;
 }
+
 
 .site-nav a:hover,
 .site-nav a:focus {
@@ -62,8 +63,20 @@ span {
 
 .site-nav a {
     color: var(--primary-text-color);
+
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
 }
 
 .contact-nav a {
     color: var(--primary-text-color);
+    
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
 }
