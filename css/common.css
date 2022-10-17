@@ -35,7 +35,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
-    
+    text-decoration: none;
 }
 
 span {
@@ -45,6 +45,11 @@ span {
 
 .list {
     list-style: none;
+    
+}
+
+.list a {
+     text-decoration: none;
 }
 
 
@@ -85,4 +90,32 @@ span {
 
 .bgch {
     background-color: var(--head-bg-color);
+}
+
+/* footer */
+
+footer {
+background-color: rgba(47, 48, 58, 1);
+
+}
+
+.night-theme {
+    color: white;
+}
+
+.location {
+    color: var(--white-text-color);
+
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.7;
+  
+}
+
+.contact {
+color: rgba(255, 255, 255, 0.6);
+
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.7;
 }
