@@ -20,7 +20,7 @@ body {
     background-color: ##F5F5F5;
     color: var(--primary-text-color)
 
-    font-family: roboto, sans-serif;
+    font-family: 'roboto';
     letter-spacing: 0.03em;
 }
 
@@ -29,7 +29,7 @@ body {
 .logo {
     color: var(--primary-logo-color)
 
-    font-family: raleway;
+    font-family: 'raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
