@@ -9,10 +9,31 @@
 button {
     color: #212121;
     background-color: rgba(245, 244, 250, 1);
+
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
 }
 
 /* work */
-.work a:hover,
-.work a:focus
+
     
+.title {
+color: #212121;
+
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height:2;
+        letter-spacing: 0.06em;
+}
+
+.text {
+    color: #757575;
+
+    font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 1.8;
+}
 
