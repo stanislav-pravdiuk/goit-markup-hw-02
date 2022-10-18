@@ -1,0 +1,18 @@
+/* filter */
+
+.filter button:hover,
+.filter button:focus {
+    color: #FFFFFF;
+    background-color: var(--secondary-logo-color);
+}
+
+button {
+    color: #212121;
+    background-color: rgba(245, 244, 250, 1);
+}
+
+/* work */
+.work a:hover,
+.work a:focus
+    
+
