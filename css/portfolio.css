@@ -1,12 +1,12 @@
 /* filter */
 
-.filter button:hover,
-.filter button:focus {
-    color: #FFFFFF;
+.filter:hover,
+.filter:focus {
+    color: var(--white-text-color);
     background-color: var(--secondary-logo-color);
 }
 
-button {
+.filter {
     color: #212121;
     background-color: rgba(245, 244, 250, 1);
 
@@ -14,30 +14,28 @@ button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
-}
-
-button {
-    cursor: pointer;
+        cursor: pointer;
 }
 
 /* work */
 
-    
 .title {
-color: #212121;
+color: var(--primary-text-color);
 
-    font-family: 'Roboto';
-        font-weight: 700;
+    font-weight: 700;
         font-size: 18px;
-        line-height:2;
+        line-height: 2;
         letter-spacing: 0.06em;
 }
 
 .text {
-    color: #757575;
+    color: var(--secondary-text-color);
 
-    font-family: 'Roboto';
-        font-size: 16px;
-        line-height: 1.8;
+font-weight: 400;
+font-size: 16px;
+    line-height: 1.8;
+    
 }
-
+.link {
+    text-decoration: none;
+}

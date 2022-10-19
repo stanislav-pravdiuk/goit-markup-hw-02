@@ -19,6 +19,8 @@
 /* footer bg rgba(47, 48, 58, 1) */
 
 body {
+    margin: 0;
+    
     background-color: var(--head-bg-color);
     color: var(--primary-text-color);
 
@@ -45,6 +47,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -68,6 +72,7 @@ body {
         font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
+        text-decoration: none;
 }
 
 .link-contact:hover,
