@@ -82,7 +82,7 @@ body {
 
 /* footer */
 
-footer {
+.footer-background {
 background-color: rgba(47, 48, 58, 1);
 
 }
@@ -93,22 +93,26 @@ background-color: rgba(47, 48, 58, 1);
 
 .location {
     color: var(--white-text-color);
-
-    font-family: 'Roboto';
+    
     font-size: 14px;
     line-height: 1.7;
-  
+    text-decoration: none;
+}
+
+.location:hover,
+.location:focus {
+    color: var(--secondary-logo-color);
 }
 
 .contact {
 color: rgba(255, 255, 255, 0.6);
 
-    font-family: 'Roboto';
         font-size: 14px;
         line-height: 1.7;
+        text-decoration: none;
 }
 
-.contact-footer a:hover,
-.contact-footer a:focus {
+.contact:hover,
+.contact:focus {
 color: var(--secondary-logo-color);
 }
