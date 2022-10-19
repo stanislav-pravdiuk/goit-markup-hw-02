@@ -20,7 +20,7 @@
 
 body {
     background-color: var(--head-bg-color);
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 
     font-family: 'roboto';
     letter-spacing: 0.03em;
@@ -29,7 +29,7 @@ body {
 /* head */
 
 .logo {
-    color: var(--primary-logo-color)
+    color: var(--primary-logo-color);
 
     font-family: 'raleway';
     font-weight: 700;
@@ -38,7 +38,7 @@ body {
     text-decoration: none;
 }
 
-span {
+.logo-accent {
     color: var(--secondary-logo-color)
     
 }
@@ -48,49 +48,37 @@ span {
     
 }
 
-.list a {
-     text-decoration: none;
-}
-
-
-.site-nav a:hover,
-.site-nav a:focus {
-    color: var(--secondary-logo-color);
-}
-
-.site-nav .current {
-    color: var(--secondary-logo-color);
-
-}
-
-.contact-nav a:hover,
-.contact-nav a:focus {
-    color: var(--secondary-logo-color);
-}
-
-.site-nav a {
+.link-nav {
     color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.1;
+        text-decoration: none;
+}
 
-    font-family: 'Roboto';
-        font-weight: 500;
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--secondary-logo-color);
+ }
+
+.link-contact {
+    color: var(--secondary-text-color);
+    font-weight: 500;
         font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
 }
 
-.contact-nav a {
-    color: var(--primary-text-color);
-    
-    font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--secondary-logo-color);
 }
 
-.bgch {
-    background-color: var(--head-bg-color);
+.current {
+    color: var(--secondary-logo-color);
 }
+
 
 /* footer */
 
