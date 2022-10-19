@@ -28,7 +28,7 @@ background-color: rgba(47, 48, 58, 1);
 
 /* features */
 
-.title {
+.title-feature {
 
     
     font-weight: 700;
@@ -47,7 +47,7 @@ color: var(--secondary-text-color);
 
 /* work */
 
-.title-work {
+.title {
     font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
@@ -55,13 +55,6 @@ color: var(--secondary-text-color);
 }
 
 /* team */
-
-.title-team {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.2;
-     
-}
 
 .name {
     font-weight: 500;
